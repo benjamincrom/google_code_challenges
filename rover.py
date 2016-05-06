@@ -79,4 +79,6 @@ def move_rovers(grid_str, rover_1_pos_str, rover_1_command_str, rover_2_pos_str,
 
     return [t[0] for t in rover_tup_list]
 
-print(move_rovers('5 5', '1 2 N', 'LMLMLMLMM', '3 3 E', 'MMRMMRMRRM'))
+
+if __name__ == '__main__':
+    print(move_rovers('5 5', '1 2 N', 'LMLMLMLMM', '3 3 E', 'MMRMMRMRRM'))
